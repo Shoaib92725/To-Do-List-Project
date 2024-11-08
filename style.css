@@ -1,0 +1,78 @@
+h1 {
+  color: #3e385f;
+}
+
+h1:hover {
+  transition: 0.3s;
+  color: navy;
+}
+
+body {
+  background: #ccd3e3f7;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.edit-mode {
+  color: #6e8f9b;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #100303;
+  border: none;
+  background: rgb(114 149 184 / 18%);
+  max-width: 400px;
+}
+
+.todos li {
+  background: rgb(49, 61, 82);
+}
+
+.filtered {
+  display: none !important;
+}
+
+.fa-minus {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  size: 10vh;
+}
+
+a:hover {
+  color: blue;
+}
+
+.submitt {
+  border: none;
+  margin-right: 287px;
+  background: #3e385f;
+  border-radius: 7px;
+  color: whitesmoke;
+  max-width: 400px;
+}
+
+.submitt:hover {
+  transition: 0.3s;
+  background: whitesmoke;
+  color: #3e385f;
+}
+
+#ClearAll {
+  border: 0px;
+  margin-left: 120px;
+  background: #3e385f;
+  border-radius: 7px;
+  color: whitesmoke;
+}
+
+#ClearAll:hover {
+  transition: 0.3s;
+  background: crimson;
+  color: black;
+}
